@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Ștefan cel Mare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/logoDichii.png">
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+
+    <script src="../js/main.js" defer></script>
+    <script src="../js/postare.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+
+        <a href="../index.html">
+            <img class="logo" src="../images/logoDichii.png" />
+        </a>
+
+        <div class="salutare">
+            
+            <span id="username"></span>
+        </div>
+
+        <navbar id="navbar">
+            <a href="../index.html">Home</a>
+            <a href="postari.html">Postări</a>
+            <a  id="postare-btn" href="creare.html" class="header-btn">Postează <i class="fas fa-plus"></i></a>
+            <a id="login-btn" class="header-btn">Log in <i class="fas fa-sign-in-alt"></i></a>
+            <a id="logout-btn"  class="header-btn gray-btn">Log Out <i class="fas fa-sign-out-alt"></i></a>
+        </navbar>
+        <span class="hamburger-menu" onclick="mobileMenu()"><i class="fa fa-bars" aria-hidden="true"></i></span>
+
+    </header>
+
+    <main>
+        <section id="postare-section">
+
+<!-- 
+
+
+            <div class="postare-full">
+                <div class="likes">
+                    <i class="far fa-heart" id="no-like"></i>
+                    <i class="fas fa-heart" id="yes-like"></i>
+                    <span id="likes-count"></span>
+                </div>
+
+                <h1 class="centered">Titlu postare</h1>
+                <img
+                    src="https://media.istockphoto.com/photos/high-school-students-at-school-wearing-n95-face-masks-picture-id1224919869?k=20&m=1224919869&s=612x612&w=0&h=ploB3h4ael2p61Ki14ApwQGTbdlrX6gkVqHfVuMPXEc=">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dicta facere corrupti mollitia, amet
+                    velit recusandae consectetur quasi quas ducimus! Maiores quos corporis nesciunt commodi molestias
+                    rerum quam aperiam dignissimos!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dicta facere corrupti mollitia, amet
+                    velit recusandae consectetur quasi quas ducimus! Maiores quos corporis nesciunt commodi molestias
+                    rerum quam aperiam dignissimos!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dicta facere corrupti mollitia, amet
+                    velit recusandae consectetur quasi quas ducimus! Maiores quos corporis nesciunt commodi molestias
+                    rerum quam aperiam dignissimos!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dicta facere corrupti mollitia, amet
+                    velit recusandae consectetur quasi quas ducimus! Maiores quos corporis nesciunt commodi molestias
+                    rerum quam aperiam dignissimos!
+                </p>
+
+                <br/>
+                <span> <i>Creat de: </i></span>
+                <i>Ion Moraru</i>
+                <br>
+                <span id="data">18-02-2022</span>
+            </div>
+ -->
+
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div id="year"></div>
+    </footer>
+</body>
+
+</html>
